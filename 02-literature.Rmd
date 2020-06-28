@@ -1,3 +1,13 @@
-# Literature
+# Experimental Design
 
-Here is a review of existing methods.
+Here is a review of our experimental methods:
+
+1) explaining of CNG mice with cre-lox recombination
+
+2) microarray approach
+
+3) spike sorting approach and spike sorting analysis
+
+
+
+

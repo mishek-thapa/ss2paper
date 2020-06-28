@@ -1,3 +1,9 @@
-# Methods
+# The Direct Method of Mutual Information
 
-We describe our methods in this chapter.
+- Bialek paper for MI estimation 
+
+
+- Bias correction
+
+
+- Other approaches

@@ -1,21 +1,18 @@
 # Introduction {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+The effects of retinitis pigmentosa (RP) and neurological diseases can simultaneously degrade an animal's behaviors, organs, tissues, and cells. Originating from the disease's loss of function mutations in the retina, electron microscopy images have shown that rod photoreceptor cells die and behavioral studies have shown that animals have difficulty navigating their environment. These observed changes are impactful in guiding treatment development for RP, yet the physiological changes that occur in between rod cell death and night blindness need clarification.  
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+The retina's role is to encode the specifics of our visual environment through both the quantity and the precise timing of action potentials originating from the ganglion cell layer (GCL). These details are sent through axons in the optic nerve that get transformed by areas of the brain into perceptions that inform an animal's actions. However, RP can obstruct the visual pathway at the stage when Rod photoreceptor cells begin to die. Thus, RP in the retina can affect all steps downstream of the visual pathway by altering signal transmission mechanisms. 
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+The encoding of visual stimuli by the retina is complex physiologically as it involves representing the spatio-temporal environment into an interpretable train of spikes. Features like the the outline of a baseball and the speed that ball travels after a toss have to be encoded quickly into a batter's retinas. In early studies, action potentials were thought to represent visual stimuli at a time-varying rate, which allowed models to effectively summarize some of the responses of the retina (Adrian 1928). For example, a poison distribution might model the occurrence of spikes pretty easily given this assumption. However, this model assumes that the mean spike count will be equal to the variance of the spike count, which does not agree with the reality of neural responses as they have lower variability than their spike count (Fig A). In addition, certain retinal responses may not be captured by this time-varying rate interpretation as the retina can change its firing rate in a timeframe that is too small to measure the temporal structure of neuronal signals. Studying spike trains using statistical modeling provides insights about retinal response patterns, but also makes mathematical assumptions that do not agree with the particular nature of spike train patterns. 
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+Instead of studying the firing of spikes by assuming a model, an additional framework to characterize the encoding of retinal responses is also by examining the consistency of the spike trains across repeated trials of the same stimuli. This approach allows taking two directions: estimating the mutual information transmitted about the stimuli and a measure of the spike train distances across the trials. The two approaches differ because the mutual information tries to quantify the total amount of information a neuron or group of neurons sends to the brain about a stimulus. While spike distance metrics try to provide insights about the precision of the neuronal code. These two metrics have utility in studying a disease because they evaluate the retinal code's precision and potential as a disease progresses and after genetic treatment.
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
+
+
+
+
+
+

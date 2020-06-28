@@ -1,7 +1,7 @@
-# Applications
+# Spike Distance Metrics
 
-Some _significant_ applications are demonstrated in this chapter.
+Fano Factor
 
-## Example one
+Victor Spike Distance 
 
-## Example two
+Other Metrics
