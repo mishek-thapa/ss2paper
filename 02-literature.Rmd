@@ -4,9 +4,18 @@ Here is a review of our experimental methods:
 
 1) explaining of CNG mice with cre-lox recombination
 
-2) microarray approach
+Retinitis pigmentosa in mice is simulated by breeding a mutation that affects the CNG protein channel in the rod photoreceptor cells. The CNGB gene is knocked out using the Cre-Lox recombinant, which can then be temporally activated with the delivery of tamoxifin. This dysfunction of the CNG protein channel simulates retinitis pigmentosa as they both initiate rod cell death and also eventually the death of the cone photoreceptor cells. The death of photoreceptors necessitates a restructuring of the retina's circuitry because downstream bipolar cells will have to adapt to transmit signals. Thus, by looking at the alterations of the retinal code, this study is exploring the physiological restructuring that happens because of this disease. Treatment is then simulated as tamoxifin initiates activation of the CNGB gene, which adds a layer to explore how phyiological changes manifest in the retinal code with treatment.
+
+2) Microarray approach
+
+19 retinas were extracted from mice and platinized on a microelectrode array to measure the action potentials sent by the ganglion cell layer. These cells were recorded across various stimuli: natural motion movies, checkerboard patterns at cone light level (daylight), and checkerboard patterns at rod-light levels (dark levels). 
 
 3) spike sorting approach and spike sorting analysis
+
+Spikes on a single electrode may contain multiple cells and multiple electrodes can contain a single cell, so a spike sorting software was used to attribute the spikes in all recordings to individual cells. The software uses PCA clustering of the spike features to identify the cluster of cells on the electrode array. A combination of manual and algorithmic spike sorting was done on some recordings to evaluate the effectiveness of the spike sorting algorithm in context of this experiment. Mutual information estimates of the majority of cells were not affected by the additional step of manual spike sorting, which provides evidence for the effectiveness of the spike sorting in all the recordings. 
+
+
+
 
 
 

@@ -8,11 +8,3 @@ The encoding of visual stimuli by the retina is complex physiologically as it in
 
 Instead of studying the firing of spikes by assuming a model, an additional framework to characterize the encoding of retinal responses is also by examining the consistency of the spike trains across repeated trials of the same stimuli. This approach allows taking two directions: estimating the mutual information transmitted about the stimuli and a measure of the spike train distances across the trials. The two approaches differ because the mutual information tries to quantify the total amount of information a neuron or group of neurons sends to the brain about a stimulus. While spike distance metrics try to provide insights about the precision of the neuronal code. These two metrics have utility in studying a disease because they evaluate the retinal code's precision and potential as a disease progresses and after genetic treatment.
 
-
-
-
-
-
-
-
-
