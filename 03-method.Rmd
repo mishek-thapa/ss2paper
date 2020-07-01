@@ -1,6 +1,8 @@
 # The Direct Method of Mutual Information
 
-- Bialek paper for MI estimation 
+Application of information theory on to a biological setting is difficult because Shannon's information theory was created initially for the design of electrical circuits. Electrical signals are at their most fundamental level binary signals sent through a channel with some added noise. The signal production system can be applied to this same framework where the retina serves as the channel for the signals sent by the stimuli. As the retina takes the information from the stimuli into the brain, it also gets a range of noise that interferes with the message of the stimulus. Though the overall schematic of the retina is similar to an electrical circuit, the encoding process of information by the retina is not as simple and is more uncertain. While independent and identically distributed binary signals can be engineered into an electrical circuit and then interpreted with a binomial model, the retina already has a model underlying its action potential firing but that model is unknown. 
+
+
 
 
 - Bias correction
