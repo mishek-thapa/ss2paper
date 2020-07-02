@@ -14,4 +14,4 @@ description: "Abstract"
 
 # Abstract
 
-Abstract for paper
+This project’s aim is to understand the extent to which signaling by retinal ganglion cells (RGCs) is affected by degeneration. Rod photoreceptor death is a form of retinal degeneration that alters the wiring of the retina and can eventually leads to blindness. As the retina loses the ability to transmit visual scenes from the retina to the brain, there are changes in the signaling at all light levels. A potential measure for the visual signaling is the information content that the RGCs sends through its action potentials and the precision with which it sends those messages. The information metric did not show a change in information rate with greater degeneration. However, with fano factor measurements, neurons exhibited greater variability in spike frequencies with greater degeneration. 

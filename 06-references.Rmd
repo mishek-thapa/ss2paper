@@ -1,4 +1,19 @@
 `r if (knitr:::is_html_output()) '
 # References {-}
 '`
-Hey
+Adrian, E. D. (1928). The basis of sensation. W W Norton & Co.
+Ferrari, S. et al. Retinitis pigmentosa: genes and disease mechanisms. Curr. Genomics 12, 238–49
+(2011).
+
+Field, G.; Chichilnisky, E. (2007). Information Processing in the Primate Retina: Circuitry and Coding. Annual Review of Neuroscience, 30(1), 1-30. doi:10.1146/annurev.neuro.30.051606.094252
+
+N Tishby, FC Pereira, & W Bialek, in Proceedings of the 37th Annual Allerton Conference on Communication, Control and Computing, B Hajek & RS Sreenivas, eds, pp 368-377 (University of Illinois, 1999);  physics/0004057 (2000).
+
+Paninski, L. (2003). Estimation of Entropy and Mutual Information. Neural Computation, 15(6), 1191-1253. doi:10.1162/089976603321780272
+
+Victor, J. D., & Purpura, K. P. (1997). Metric‐space analysis of spike trains: theory, algorithms and
+application. Network, 8, 127‐164. 
+
+Wright, A. F., Chakarova, C. F., Abd El-Aziz, M. M. & Bhattacharya, S. S. Photoreceptor degeneration:
+genetic and mechanistic dissection of a complex trait. Nat. Rev. Genet. 11, 273–284 (2010).
+

@@ -1,3 +1,10 @@
 # Results and Discussion
 
-We have finished a nice book.
+Though the information content in the retina may appear to stay the same, the animals still experience a decline in their visual responses. This would indicate that information content is not necessarily a good metric for evaluating the retinal code after disease. However, since differences were exhibited significantly between the natural motion stimuli and the low level stimuli, the metric appears to differentiate the ability of the retina to reliably encode the stimuli in that circumstance. Or it could be the case that the retinal code does get altered across degeneration but it only affects the brain's decoding process of the visual environment and not the information content. 
+
+Another explanation for this result could be that this method for information theoretic estimation is not appropriate. It has been clear that undersampling of the pattern distribution creates a downward bias in information estimates. Whether that bias is consistent across degeneration is uncertain. Thus, this metric may not be completely accurate and could use a bias correction.
+
+The spiking reliability declines across degeneration in raster plots, a more direct look at the data. This observation along with fano factor measurements do not include bias as they are empirical observations from the data. The mutual information estimation is a statistic that uses a probablity distribution that may be right skewed. Further steps to uncover the changes to the retinal code will be to evaluate the effectiveness of the mutual information estimate and also explore other metrics for retina coding reliability.   
+
+
+
